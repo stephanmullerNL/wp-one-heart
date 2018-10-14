@@ -11,3 +11,96 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  one-heart
 */
+
+body:before {
+    display: none;
+}
+
+.site {
+    background-color: white;
+    max-width: 990px;
+}
+
+.site-header {
+    background: url('/wp-content/themes/wp-one-heart/images/rijn_wide_zomer.png') center right no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 3em 4em 7em;
+}
+
+.sidebar {
+    position: static !important;
+}
+
+.main-navigation {
+    font-size: 1.3rem;
+    margin: 2em;
+    padding-top: 3em;
+}
+
+.social-navigation {
+    display: none;
+}
+
+.secondary {
+    margin: 0;
+    padding: 0 0 2em;
+}
+
+.widget {
+    margin: 0;
+    padding: 0 2em;
+}
+
+.site-main {
+    padding: 2em 0;
+}
+
+.hentry {
+    box-shadow: none;
+    margin: 2em;
+    padding-top: 0;
+}
+
+.entry-footer {
+    display: none;
+}
+
+.entry-title {
+    font-size: 2.5rem;
+}
+
+blockquote {
+    font-size: 1.5rem;
+}
+
+blockquote p {
+    margin-bottom: 0.6em;
+}
+
+.site-info {
+    clear: both;
+    margin: 0;
+    padding: 2em 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 46.25em) {
+    body {
+        padding: 2em;
+    }
+    .site {
+        border: 1px solid grey;
+        padding: 2em;
+    }
+
+    .site-info {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 59.6875em) {
+    .main-navigation {
+        padding-top: 3em;
+    }
+}
