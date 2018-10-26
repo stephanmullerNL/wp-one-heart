@@ -103,6 +103,7 @@ blockquote p {
 /* Footer */
 .site-info {
     clear: both;
+    font-size: 12px;
     margin: 0;
     padding: 2em 0;
     text-align: center;
