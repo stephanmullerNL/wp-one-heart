@@ -27,19 +27,20 @@ body:before {
 }
 
 .site-header {
-    background: url(http://oneheartsangha.nl/wp-content/uploads/2018/12/2016-kinhin-Havelte.jpg) 58% 35% no-repeat;
+	background: url(http://oneheartsangha.nl/wp-content/uploads/2019/08/lucht2-1024x576.jpg) 50% 65% no-repeat; 
+
     background-size: cover;
     margin: 0;
-    padding: 15em 2em .5em 4em;
+    padding: 6em 2em;
 }
 
 .site-branding {
-    text-align: right;
+	padding: 0;
+    text-align: center;
 }
 
 .site-title a {
-    color: #532103;
-    text-shadow: 1px 1px 1px rgba(255,255,255,.5);
+    color: white;
 }
 
 .site-description {
